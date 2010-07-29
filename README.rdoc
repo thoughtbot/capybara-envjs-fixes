@@ -25,4 +25,4 @@ Then, require the fixes from within cucumber:
 
 == Copyright
 
-Copyright (c) 2010 Jason Morrison. See LICENSE for details.
+Copyright (c) 2010 thoughtbot, Jason Morrison. See LICENSE for details.
