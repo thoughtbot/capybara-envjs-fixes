@@ -1,6 +1,17 @@
 = capybara-envjs-fixes
 
-Description goes here.
+Fixes on top of capybara-envjs.
+
+== Rails 3 usage
+
+Include the git repository in your Gemfile:
+
+    gem 'capybara-envjs-fixes', :git => "git://github.com/jasonm/capybara-envjs-fixes.git"
+
+Then, require the fixes from within cucumber:
+
+    $ cat features/support/capybara_envjs_fixes.rb 
+    require 'capybara_envjs_fixes/cucumber_fixes'
 
 == Note on Patches/Pull Requests
  
