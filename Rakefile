@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "capybara-envjs-fixes"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Fixes on top of capybara-envjs}
+    gem.description = %Q{Fixes on top of capybara-envjs}
     gem.email = "jmorrison@thoughtbot.com"
     gem.homepage = "http://github.com/jasonm/capybara-envjs-fixes"
     gem.authors = ["Jason Morrison"]
