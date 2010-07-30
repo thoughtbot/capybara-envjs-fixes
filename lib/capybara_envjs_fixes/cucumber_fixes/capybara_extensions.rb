@@ -59,10 +59,3 @@ class Capybara::Driver::Envjs
   end
 end
 
-module CapybaraHelpers
-  def node_from_nokogiri(nokogiri_node)
-    page.driver.class.const_get('Node').new(page.driver, nokogiri_node)
-  end
-end
-
-World(CapybaraHelpers)
