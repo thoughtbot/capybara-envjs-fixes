@@ -6,7 +6,7 @@ Fixes on top of capybara-envjs.
 
 Include the git repository in your Gemfile:
 
-    gem 'capybara-envjs-fixes', :git => "git://github.com/jasonm/capybara-envjs-fixes.git"
+    gem 'capybara-envjs-fixes', :git => "git://github.com/thoughtbot/capybara-envjs-fixes.git"
 
 Then, require the fixes from within cucumber:
 
@@ -25,4 +25,4 @@ Then, require the fixes from within cucumber:
 
 == Copyright
 
-Copyright (c) 2010 thoughtbot, Jason Morrison. See LICENSE for details.
+Copyright (c) 2010 thoughtbot. See LICENSE for details.
