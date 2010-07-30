@@ -1,2 +1,3 @@
 require 'capybara_envjs_fixes/cucumber_fixes/javascript'
 require 'capybara_envjs_fixes/cucumber_fixes/capybara_extensions'
+require 'capybara_envjs_fixes/cucumber_fixes/base64_upload'
