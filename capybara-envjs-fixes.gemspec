@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{capybara-envjs-fixes}
-  s.version = "0.0.2"
+  s.version = "0.0.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jason Morrison"]
-  s.date = %q{2010-07-30}
+  s.date = %q{2010-08-02}
   s.description = %q{Fixes on top of capybara-envjs}
   s.email = %q{jmorrison@thoughtbot.com}
   s.extra_rdoc_files = [
@@ -28,6 +28,7 @@ Gem::Specification.new do |s|
      "lib/capybara_envjs_fixes/cucumber_fixes/base64_upload.rb",
      "lib/capybara_envjs_fixes/cucumber_fixes/capybara_extensions.rb",
      "lib/capybara_envjs_fixes/cucumber_fixes/javascript.rb",
+     "lib/capybara_envjs_fixes/cucumber_fixes/redirect_fix.rb",
      "spec/capybara-envjs-fixes_spec.rb",
      "spec/spec.opts",
      "spec/spec_helper.rb"
