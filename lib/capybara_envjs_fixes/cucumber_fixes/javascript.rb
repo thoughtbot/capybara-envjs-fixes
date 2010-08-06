@@ -62,6 +62,7 @@ Before('@javascript') do
                   %{<script type="text/javascript">
                     #{CucumberJavascript::MOCK_JQUERY}
                     #{@__custom_javascript.join}
+                    </script>
                     </body>})
     new_body.gsub!(%r{<script src="http://[^"]+" type="text/javascript"></script>}, '')
     Capybara.current_session.driver.response.instance_variable_set('@body', new_body)
