@@ -7,9 +7,9 @@ begin
     gem.name = "capybara-envjs-fixes"
     gem.summary = %Q{Fixes on top of capybara-envjs}
     gem.description = %Q{Fixes on top of capybara-envjs}
-    gem.email = "jmorrison@thoughtbot.com"
+    gem.email = "support@thoughtbot.com"
     gem.homepage = "http://github.com/jasonm/capybara-envjs-fixes"
-    gem.authors = ["Jason Morrison"]
+    gem.authors = ["Jason Morrison", "Joe Ferris", "Harold Giménez"]
     gem.add_development_dependency "rspec", ">= 1.2.9"
     gem.add_dependency('capybara-envjs', '>= 0.1.6')
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
