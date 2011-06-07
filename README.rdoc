@@ -1,3 +1,7 @@
+= DEPRECATED
+
+Please use {capybara-webkit}[https://github.com/thoughtbot/capybara-webkit] instead.
+
 = capybara-envjs-fixes
 
 Fixes on top of capybara-envjs.
